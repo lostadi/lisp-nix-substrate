@@ -1,0 +1,10 @@
+# Ignore Lisp compiled binaries and REPL history
+*.fasl
+.sbcl_history
+
+# Ignore macOS metadata
+.DS_Store
+
+# Ignore ephemeral sockets or IPC bridges
+sockets/
+secrets/
